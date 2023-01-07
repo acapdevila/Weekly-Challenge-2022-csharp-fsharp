@@ -11,12 +11,17 @@ En esta versión del proyecto utilizo Visual Studio como IDE y c# y f# como leng
 
 ## Listado de retos
 
-### [Aquí](https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/tree/main/app/src/main/java/com/mouredev/weeklychallenge2022) tienes un fichero con el enunciado y el código para cada reto
+### [Aquí](https://github.com/acapdevila/Weekly-Challenge-2022-csharp-fsharp/tree/main/src/RetosSemanales2022) tienes dos carpetas, una para c# y otra para f#, con los ficheros, el enunciado y el código de cada reto.
 
 Iré añadiendo a medida que los resuelva.
+
+* **#0 c#** - 07/01/23 - [`EL FAMOSO "FIZZ BUZZ" en C#`](https://github.com/acapdevila/Weekly-Challenge-2022-csharp-fsharp/blob/main/src/RetosSemanales2022/Retos%20semanales%202022%20csharp/0_FizzBuzz.cs)
+* **#0 f#** - 07/01/23 - [`EL FAMOSO "FIZZ BUZZ" en F#`](https://github.com/acapdevila/Weekly-Challenge-2022-csharp-fsharp/blob/main/src/RetosSemanales2022/Retos%20semanales%202022%20fsharp/0_FizzBuzz.fs)
+
 <!---
-* **#0** - 27/12/21 - [`EL FAMOSO "FIZZ BUZZ"`](https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge0.kt)
 * **#1** - 03/01/22 - [`¿ES UN ANAGRAMA?`](https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge1.kt)
+
+
 * **#2** - 10/01/22 - [`LA SUCESIÓN DE FIBONACCI`](https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge2.kt)
 * **#3** - 17/01/22 - [`¿ES UN NÚMERO PRIMO?`](https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge3.kt)
 * **#4** - 24/01/22 - [`ÁREA DE UN POLÍGONO`](https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge4.kt)
