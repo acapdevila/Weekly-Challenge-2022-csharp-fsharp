@@ -1,37 +1,20 @@
-# Retos de programación semanales 2022
-## Proyecto de retos semanales de la comunidad **[MoureDev](https://moure.dev)** para practicar lógica de programación.
-### Todos nuestros retos en **[retosdeprogramacion.com/semanales2022](https://retosdeprogramacion.com/semanales2022)**
-
-<a href="https://youtu.be/8HuQXzJl_1I"><img src="http://i3.ytimg.com/vi/8HuQXzJl_1I/maxresdefault.jpg" style="height: 50%; width:50%;"/></a>
-
-Si quieres realizar los retos de programación en Swift, utiliza el siguiente repositorio.
-
-[![GitHub Kotlin](https://img.shields.io/github/stars/mouredev/Weekly-Challenge-2022-Swift?label=Repositorio%20retos%20Semanales%20en%20Swift&style=social)](https://github.com/mouredev/Weekly-Challenge-2022-Kotlin)
-
-También puedes unirte a nuestra actividad mensual de creación de aplicaciones.
-
-[![GitHub App](https://img.shields.io/github/stars/mouredev/Monthly-App-Challenge-2022?label=Repositorio%20retos%20Mensuales&style=social)](https://github.com/mouredev/Monthly-App-Challenge-2022)
+# Retos de programación semanales 2022 c# y f#
+## Esta es la versión en c# y f# del proyecto de retos semanales de la comunidad **[MoureDev](https://moure.dev)** para practicar lógica de programación.
 
 ## Información importante
 
-El proyecto principal de retos de programación semanales se ha creado utilizando Android Studio y resolviendo cada uno de los ejercicio utilizando el lenguaje de programación Kotlin (ya que lo utilizo frecuentemente, su sintáxis es simple y tenía que elegir alguno como ejemplo 😁). 
+En esta versión del proyecto utilizo Visual Studio como IDE y c# y f# como lenguajes de programación. 
 
-[![Kotlin](https://img.shields.io/badge/Kotlin-1.5-purple?longCache=true&style=popout-square)](https://kotlinlang.org)
-[![Android Studio](https://img.shields.io/badge/Android_Studio-4.2-blue.svg?longCache=true&style=popout-square)](https://developer.android.com/studio)
-[![Android](https://img.shields.io/badge/Android-6-green.svg?longCache=true&style=popout-square)](https://www.android.com)
-
-Puedes utilizar **cualquier lenguaje** para resolver los retos. Tienes soluciones de la comunidad usando todo tipo de lenguajes en la sección de **[Pull Requests](https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/pulls)**.
-
-Tienes toda la información extendida sobre los retos de programación semanales y mensuales en **[retosdeprogramacion.com](https://retosdeprogramacion.com/)**.
-
-## Vídeo explicación retos
-
-<a href="https://youtu.be/14v4IINunvY"><img src="http://i3.ytimg.com/vi/14v4IINunvY/maxresdefault.jpg" style="height: 50%; width:50%;"/></a>
+[![c#](https://img.shields.io/badge/csharp-10-purple?longCache=true&style=popout-square)](https://learn.microsoft.com/es-es/dotnet/csharp/)
+[![f#](https://img.shields.io/badge/fsharp-4.5-purple?longCache=true&style=popout-square)](https://learn.microsoft.com/es-es/dotnet/fsharp/)
+[![Visual Studio](https://img.shields.io/badge/Visual_Studio-2022-blue.svg?longCache=true&style=popout-square)](https://visualstudio.microsoft.com/es/)
 
 ## Listado de retos
 
 ### [Aquí](https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/tree/main/app/src/main/java/com/mouredev/weeklychallenge2022) tienes un fichero con el enunciado y el código para cada reto
 
+Iré añadiendo a medida que los resuelva.
+<!---
 * **#0** - 27/12/21 - [`EL FAMOSO "FIZZ BUZZ"`](https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge0.kt)
 * **#1** - 03/01/22 - [`¿ES UN ANAGRAMA?`](https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge1.kt)
 * **#2** - 10/01/22 - [`LA SUCESIÓN DE FIBONACCI`](https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge2.kt)
@@ -84,91 +67,8 @@ Tienes toda la información extendida sobre los retos de programación semanales
 * **#49** - 05/12/22 - [`EL DETECTOR DE HANDLES`](https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge49.kt)
 * **#50** - 12/12/22 - [`LA ENCRIPTACIÓN DE KARACA`](https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge50.kt)
 * **#51** - 19/12/22 - [`EL RETO RANDOM`](https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge51.kt)
+-->
 
-> **[🆕ACCEDE A LOS NUEVOS RETOS SEMANALES PARA 2023](https://github.com/mouredev/retos-programacion-2023)**
+## Mi nombre es Albert Capdevila y soy programador .Net freelance.
 
-<a href="https://youtu.be/ydH_B5KuqGs"><img src="http://i3.ytimg.com/vi/ydH_B5KuqGs/maxresdefault.jpg" style="height: 50%; width:50%;"/></a>
-
-*Corrección retos del 0 al 4 en vídeo*
-
-<a href="https://youtu.be/Y_Gej0lbfD0"><img src="http://i3.ytimg.com/vi/Y_Gej0lbfD0/maxresdefault.jpg" style="height: 50%; width:50%;"/></a>
-
-*Corrección retos del 5 al 10 en vídeo*
-
-<a href="https://youtu.be/YPdhP60Tt08"><img src="http://i3.ytimg.com/vi/YPdhP60Tt08/maxresdefault.jpg" style="height: 50%; width:50%;"/></a>
-
-*Corección retos del 11 al 20 en vídeo*
-
-<a href="https://youtu.be/nOB_4le7718"><img src="http://i3.ytimg.com/vi/nOB_4le7718/maxresdefault.jpg" style="height: 50%; width:50%;"/></a>
-
-*Corección retos del 21 al 30 en vídeo*
-
-<a href="https://youtu.be/8-IOU3Qlgws"><img src="http://i3.ytimg.com/vi/8-IOU3Qlgws/maxresdefault.jpg" style="height: 50%; width:50%;"/></a>
-
-*Corección retos del 31 al 40 en vídeo*
-
-<a href="https://youtu.be/LpnVqgonptI"><img src="http://i3.ytimg.com/vi/LpnVqgonptI/maxresdefault.jpg" style="height: 50%; width:50%;"/></a>
-
-*Corección retos del 41 al 46 en vídeo*
-
-<a href="https://youtu.be/nOrqQcHUhxc"><img src="http://i3.ytimg.com/vi/nOrqQcHUhxc/maxresdefault.jpg" style="height: 50%; width:50%;"/></a>
-
-*Corección retos del 47 al 51 en vídeo*
-
-### ¿Cómo puedo participar?
-
-**Puedes hacer libremente un fork del proyecto y trabajar con Git para ir sincronizando las actualizaciones del proyecto.**
-
-* Cada lunes se publicará un nuevo reto de código.
-* Cada reto será un nuevo fichero dentro de `app/src/main/java/com/mouredev/weeklychallenge2022` donde se indicará la fecha, el enunciado y la información necesaria para llevarlo a cabo.
-* Se comunicará en el canal `#🔁reto-semanal` de [Discord](https://mouredev.com/discord), en directo desde [Twitch](https://twitch.tv/mouredev) y se subirá el enunciado al [repositorio](https://github.com/mouredev/Weekly-Challenge-2022-Kotlin).
-* Dispondrás de una semana para resolverlo, preguntar tus dudas, debatir y aportar ayuda en el canal de Discord.
-* El lunes siguiente se subirá la resolución al repositorio, se comentará en directo desde Twitch (utilizando alguna solución de entre los asistentes o que se haya realizado una pull request al proyecto) y se añadirá el nuevo reto semanal.
-* Comenzará de nuevo el proceso.
-
-	*Si no dispones de un editor de código como Android Studio, puedes usar un playground online ([https://play.kotlinlang.org/](https://play.kotlinlang.org/)) para probar tu código.*
-	
-	*Si utilizas un editor como Android Studio o semejante, puedes ejecutar el código creando un bloque `fun main() { }` y pulsando el símbolo "play ►" en el lateral.*
-	
-	> 	fun main() {
-	>     
-	> 	}
-	
-#### Puedes apoyar mi trabajo haciendo "☆ Star" en el repo o nominarme a "GitHub Star". ¡Gracias!
-
-[![GitHub Star](https://img.shields.io/badge/GitHub-Nominar_a_star-yellow?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://stars.github.com/nominate/)
-
-Si quieres unirte a nuestra comunidad de desarrollo, aprender programación de Apps, mejorar tus habilidades y ayudar a la continuidad del proyecto, puedes encontrarnos en:
-
-[![Twitch](https://img.shields.io/badge/Twitch-Retos_en_directo-9146FF?style=for-the-badge&logo=twitch&logoColor=white&labelColor=101010)](https://twitch.tv/mouredev)
-[![Discord](https://img.shields.io/badge/Discord-Canal_de_chat_para_retos-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=101010)](https://mouredev.com/discord)
-[![Link](https://img.shields.io/badge/Links_de_interés-moure.dev-39E09B?style=for-the-badge&logo=Linktree&logoColor=white&labelColor=101010)](https://mouredev.com)
-
-### Cómo trabajar con Git y GitHub de forma colaborativa
-
-Deberás realizar flujos de actualización, sincronización y `pull request` desde tu `fork` del proyecto hacia el principal (habitualmente nombrado como `upstream/main`).
-Todo esto se puede hacer desde línea de comandos, pero si prefieres puedes usar clientes gráficos como [GitHub Desktop](https://desktop.github.com/) (muy simple) o [GitKraken](https://www.gitkraken.com/invite/cZWhJq1v) (más avanzado y potente).
-
-* Desde tu repo en la propia web de GitHub podrás realizar muchas acciones.
-* Si te resulta más fácil, puedes crear una `branch`(rama) para resolver cada reto y así simplificar la `pull request`. También puedes ignorar ciertos ficheros.
-* Resuelve el ejercicio y realiza `commit` y `push` del mismo a tu proyecto.
-* Desde GitHub, una vez hecho el `fork` verás opciones como "Contribute" o "Fetch upstream":
-	* `Contribute` permite abrir una `pull request`(deberás seleccionar el mío como repositorio base contra el que comparar tu proyecto). Así yo podré ver los ficheros modificados de tu proyecto con la solución a los retos. Intenta que el título de la `pull request` siga esta convención: **"Solución Reto #[número del reto] [Lenguaje]" (Solución Reto #0 Kotlin)**. 
-	* `Fetch upstream` permite sincronizar tu proyecto con el original en caso de que se haya actualizado.
-* Para sincronizar tu proyecto con el original y mantenerlo actualizado también puedes hacer un `merge commit`, `squash merge` o `rebase`(ten en cuenta que cada uno se comporta de una manera, conservando o no tus propios cambios).
-* Una vez se publique el nuevo reto, la solución del anterior, y comente las soluciones, cerraré las pasadas `pull request` para dejar paso a las que se hagan para el nuevo reto.
-
-## ![https://mouredev.com](https://raw.githubusercontent.com/mouredev/mouredev/master/mouredev_emote.png) Hola, mi nombre es Brais Moure.
-### Freelance full-stack iOS & Android engineer
-
-[![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCxPD7bsocoAMq8Dj18kmGyQ?style=social)](https://youtube.com/mouredevapps?sub_confirmation=1)
-[![Twitch Status](https://img.shields.io/twitch/status/mouredev?style=social)](https://twitch.com/mouredev)
-[![Discord](https://img.shields.io/discord/729672926432985098?style=social&label=Discord&logo=discord)](https://mouredev.com/discord)
-[![Twitter Follow](https://img.shields.io/twitter/follow/mouredev?style=social)](https://twitter.com/mouredev)
-![GitHub Followers](https://img.shields.io/github/followers/mouredev?style=social)
-
-Soy ingeniero de software desde hace más de 12 años. Desde hace 4 años combino mi trabajo desarrollando Apps con creación de contenido formativo sobre programación y tecnología en diferentes redes sociales como **[@mouredev](https://moure.dev)**.
-
-### En mi perfil de GitHub tienes más información
-
-[![Web](https://img.shields.io/badge/GitHub-MoureDev-14a1f0?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/mouredev)
+### En mi blog **[albertcapdevila.net](https://albertcapdevila.net)** puedes encontrar más información sobre mí.
