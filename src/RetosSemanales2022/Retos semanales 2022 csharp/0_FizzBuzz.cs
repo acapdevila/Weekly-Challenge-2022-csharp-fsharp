@@ -45,26 +45,35 @@ public class Reto0
 
     //Test para el reto 0
     
-    [Theory]
-    [InlineData(1, "1")]
-    [InlineData(2, "2")]
-    [InlineData(3, "fizz")]
-    [InlineData(4, "4")]
-    [InlineData(5, "buzz")]
-    [InlineData(6, "fizz")]
-    [InlineData(7, "7")]
-    [InlineData(8, "8")]
-    [InlineData(9, "fizz")]
-    [InlineData(10, "buzz")]
-    [InlineData(11, "11")]
-    [InlineData(12, "fizz")]
-    [InlineData(13, "13")]
-    [InlineData(14, "14")]
-    [InlineData(15, "fizzbuzz")]
-    public void FizzBuzz_devuelve_resultados_correctos_para_15_primeros_inputs(int i, string esperado)
+    [Fact]
+    public void FizzBuzz_devuelve_resultados_correctos_para_15_primeros_inputs()
     {
-        var actual = GetFizzBuzzString(i);
-        actual.Should().Be(esperado);
+        var casos =new List<(int, string)> {
+            (1, "1"),
+            (2, "2"),
+            (3, "fizz"),
+            (4, "4"),
+            (5, "buzz"),
+            (6, "fizz"),
+            (7, "7"),
+            (8, "8"),
+            (9, "fizz"),
+            (10, "buzz"),
+            (11, "11"),
+            (12, "fizz"),
+            (13, "13"),
+            (14, "14"),
+            (15, "fizzbuzz")
+        } ;
+
+        casos.ForEach(caso =>
+        {
+            var (i, esperado) = caso;
+            var actual = GetFizzBuzzString(i);
+            actual.Should().Be(esperado);
+        });
+        
+       
     }
 
 
