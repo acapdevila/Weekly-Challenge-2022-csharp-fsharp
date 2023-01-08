@@ -21,18 +21,18 @@ module Reto0
 
 open Xunit
 
-let GetFizzBuzzString (i : int) =
+let FizzBuzzONumero (i : int) =
     match (i % 3 = 0, i % 5 = 0) with
     | (true, true) -> "fizzbuzz"
     | (true, _) -> "fizz"
     | (_, true) -> "buzz"
     | _ -> string i
 
-let FizzBuzz = 
+let MuestraResultadosFizzBuzz = 
     printfn "Reto 0 f# FizzBuzz"
 
     [1..100]
-    |> List.map GetFizzBuzzString
+    |> List.map FizzBuzzONumero
     |> String.concat "\n"
     |> printfn "%s"
 
@@ -62,7 +62,7 @@ let ``FizzBuzz devuelve resultados correctos para 15 primeros inputs`` () =
         
     casos
     |> List.iter (fun (i, esperado) ->
-        let actual = GetFizzBuzzString i
+        let actual = FizzBuzzONumero i
         Assert.Equal(esperado, actual)
     )
     

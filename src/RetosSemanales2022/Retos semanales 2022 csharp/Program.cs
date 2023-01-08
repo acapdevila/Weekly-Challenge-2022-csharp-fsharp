@@ -1,4 +1,4 @@
 ﻿global using FluentAssertions;
 global using Xunit;
 
-Reto0.FizzBuzz();
+Reto0.MuestraResultadosFizzBuzz();

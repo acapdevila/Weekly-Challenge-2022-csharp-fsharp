@@ -19,20 +19,20 @@
 
 public class Reto0
 {
-    public  static void FizzBuzz()
+    public  static void MuestraResultadosFizzBuzz()
     {
         Console.WriteLine("Reto 0 c# FizzBuzz");
 
         var numeros = string.Join(
             Environment.NewLine,
-            Enumerable.Range(1, 100).Select(GetFizzBuzzString)
+            Enumerable.Range(1, 100).Select(FizzBuzzONumero)
         );
 
         Console.WriteLine(numeros);
         Console.WriteLine("Reto 0 fin");
     }
 
-    private static string GetFizzBuzzString(int i)
+    private static string FizzBuzzONumero(int i)
     {
         return (i % 3 == 0, i % 5 == 0) switch
         {
@@ -69,7 +69,7 @@ public class Reto0
         casos.ForEach(caso =>
         {
             var (i, esperado) = caso;
-            var actual = GetFizzBuzzString(i);
+            var actual = FizzBuzzONumero(i);
             actual.Should().Be(esperado);
         });
         

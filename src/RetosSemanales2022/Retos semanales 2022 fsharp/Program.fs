@@ -2,5 +2,5 @@ module Program
 
 [<EntryPoint>]
 let main _ = 
-   Reto0.FizzBuzz
+   Reto0.MuestraResultadosFizzBuzz
    0
