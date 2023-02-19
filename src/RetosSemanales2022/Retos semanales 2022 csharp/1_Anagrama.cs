@@ -43,10 +43,10 @@ public class Reto1
                 StringComparison.InvariantCultureIgnoreCase)) 
                     return false;
 
-        return EnMinusculasYOrdenarLetras(palabra1) == EnMinusculasYOrdenarLetras(palabra2);
+        return EnMinusculasYOrdenadaPorLetras(palabra1) == EnMinusculasYOrdenadaPorLetras(palabra2);
     }
 
-    private static string EnMinusculasYOrdenarLetras(string palabra) => 
+    private static string EnMinusculasYOrdenadaPorLetras(string palabra) => 
         string.Concat(palabra.ToLower().OrderBy(letter => letter));
 
     //Test para el reto 1
