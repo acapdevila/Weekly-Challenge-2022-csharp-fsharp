@@ -18,6 +18,8 @@ public class Reto1
 {
     public  static void EjecutaAnagrama()
     {
+        Console.WriteLine("Reto 1 c# Anagrama");
+
         new List<(string, string)>
         {
             ("amor", "roma"),
@@ -29,8 +31,8 @@ public class Reto1
         }.ForEach(caso =>
         {
             var (palabra1, palabra2) = caso;
-            Console.WriteLine($"¿Es '{palabra1}' un anagrama de '{palabra2}'?");
-            Console.WriteLine($"{(EsAnagrama(palabra1, palabra2) ? "Sí" : "No")} es un anagrama");
+            var siONo = EsAnagrama(palabra1, palabra2) ? "Sí" : "No";
+            Console.WriteLine($"¿Es '{palabra1}' un anagrama de '{palabra2}'? {siONo}");
         });
 
         Console.WriteLine("Reto 1 fin");
