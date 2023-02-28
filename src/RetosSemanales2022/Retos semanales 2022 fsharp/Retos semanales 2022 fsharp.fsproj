@@ -9,8 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="1_Anagrama.fs" />
     <Compile Include="0_FizzBuzz.fs" />
+    <Compile Include="1_Anagrama.fs" />
+    <Compile Include="2_Fibonacci.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
