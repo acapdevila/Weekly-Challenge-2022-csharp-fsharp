@@ -13,6 +13,7 @@
     <Compile Include="1_Anagrama.fs" />
     <Compile Include="2_Fibonacci.fs" />
     <Compile Include="3_EsNumeroPrimo.fs" />
+    <Compile Include="4_AreasPoligonos.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
