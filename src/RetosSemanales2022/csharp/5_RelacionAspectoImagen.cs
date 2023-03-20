@@ -16,16 +16,16 @@ using System.Drawing;
 
 public class Reto5
 {
-    public  static async Task MuestraRelacionAspectoImagen()
+    public static async Task MuestraRelacionAspectoImagen()
     {
         Console.WriteLine("Reto 5 c# RelacionAspectoImagen");
-        
+
         var http = new HttpClient();
         var stream = await http.GetStreamAsync("https://raw.githubusercontent.com/mouredev/mouredev/master/mouredev_github_profile.png");
-        using var img  = Image.FromStream(stream);
+        using var img = Image.FromStream(stream);
 
         var relacionAspecto = RelacionDeAspecto(img.Width, img.Height);
-        
+
         Console.WriteLine(relacionAspecto);
         Console.WriteLine("Reto 5 fin");
     }
@@ -45,21 +45,21 @@ public class Reto5
     /// <returns></returns>
     private static string RelacionDeAspecto(decimal ancho, decimal alto)
     {
-       var ratio = ancho / alto;
+        var ratio = ancho / alto;
 
-       var i = 0;
-       decimal decimas;
-       decimal resultado;
-       do
-       {
-           i++;
-           resultado = ratio * i;
-           decimas = resultado - decimal.Round(resultado);
+        var i = 0;
+        decimal decimas;
+        decimal resultado;
+        do
+        {
+            i++;
+            resultado = ratio * i;
+            decimas = resultado - decimal.Round(resultado);
 
-       } while (0.1m < Math.Abs(decimas));
+        } while (0.1m < Math.Abs(decimas));
 
-       return $"{decimal.Round(resultado)}:{i}";
-        
+        return $"{decimal.Round(resultado)}:{i}";
+
     }
 
     //Test para el reto 0
@@ -67,13 +67,13 @@ public class Reto5
     [Fact]
     public void Relaciones_de_aspecto_para_varias_medidas()
     {
-        var casos =new List<(int, int, string)> {
+        var casos = new List<(int, int, string)> {
             (1000,1000, "1:1"),
             (4000, 3000, "4:3"),
             (1920, 1080, "16:9"),
             (3000, 2000, "3:2"),
             (5000, 4000, "5:4")
-        } ;
+        };
 
         casos.ForEach(caso =>
         {
@@ -81,8 +81,8 @@ public class Reto5
             var actual = RelacionDeAspecto(ancho, alto);
             actual.Should().Be(esperado);
         });
-        
-       
+
+
     }
 
 #pragma warning restore CA1416
