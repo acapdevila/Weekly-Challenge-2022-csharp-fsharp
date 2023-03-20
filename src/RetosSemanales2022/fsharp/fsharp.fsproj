@@ -12,6 +12,7 @@
     <Compile Include="3_EsNumeroPrimo.fs" />
     <Compile Include="4_AreasPoligonos.fs" />
     <Compile Include="5_RelacionAspectoImagen.fs" />
+    <Compile Include="6_InvirtiendoCadenas.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 

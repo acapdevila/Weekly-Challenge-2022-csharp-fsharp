@@ -8,5 +8,6 @@ let main _ =
    Reto3.ImprimeLosPrimosEntreUnoYCien
    Reto4.ImprimeAreasDePoligonos
    Reto5.MuestraRelacionAspectoImagen
+   Reto6.MuestraHolaMundoInvertido
    System.Console.ReadKey() |> ignore
    0
